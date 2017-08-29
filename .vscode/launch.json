@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "name": "PlatformIO Debugger",
+            "target": "/home/tomg/Arduino/libraries/sh_client/.pioenvs/esp32doit-devkit-v1/firmware.elf",
+            "gdbpath": "/home/tomg/.platformio/penv/bin/piodebuggdb",
+            "autorun": [ "source .pioinit" ]
+        }
+    ]
+}
